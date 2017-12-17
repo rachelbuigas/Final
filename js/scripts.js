@@ -35,8 +35,10 @@
 
    });
 
-
-
+ var parts = window.location.hash;
+ if (parts) {
+   setTimeout( function () { jQuery(parts).click(); }, 850);
+ } 
 
    if (screen.width >= 600) {
        $.fn.moveIt = function() {
@@ -69,6 +71,8 @@
            $('[data-scroll-speed]').moveIt();
        });
    }
+
+
 
 // ===== Scroll to Top ==== 
 $(window).scroll(function() {

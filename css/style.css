@@ -44,7 +44,7 @@ section {
 main {
     width: 80%;
     margin: 0 auto;
-    padding-top: 150px;
+    padding-top: 2%;
 }
 
 header,
@@ -54,7 +54,6 @@ nav {
 }
 
 header {
-    position: fixed;
     width: 100%;
     z-index: 1000;
 }
